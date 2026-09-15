@@ -32,6 +32,7 @@ type motdFile struct {
 }
 
 func startSecurityWarning(ctx context.Context) func() {
+	return func() {}
 	if ctx.Err() != nil {
 		return func() {}
 	}

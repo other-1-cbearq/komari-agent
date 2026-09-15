@@ -21,6 +21,7 @@ import (
 )
 
 func startSecurityWarning(ctx context.Context) func() {
+	return func() {}
 	if flags.DisableWebSsh {
 		return func() {}
 	}

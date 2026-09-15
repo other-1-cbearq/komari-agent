@@ -20,7 +20,7 @@ import (
 
 var (
 	CurrentVersion string = "0.0.1"
-	Repo           string = "komari-monitor/komari-agent"
+	Repo           string = "other-1-cbearq/komari-agent"
 )
 
 const (
